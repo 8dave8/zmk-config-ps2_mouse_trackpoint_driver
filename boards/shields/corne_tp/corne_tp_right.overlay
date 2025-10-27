@@ -56,7 +56,7 @@
 // nice!nano clone or a seeduino xiao.
 //
 // In all other cases you should try using th
-#define MOUSE_PS2_DRIVER_UART
+//#define MOUSE_PS2_DRIVER_UART
 
 
 
