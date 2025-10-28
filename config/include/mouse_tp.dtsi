@@ -175,7 +175,7 @@
 
     &mouse_ps2_input_listener {
       status = "okay";
-      tp-xy-swap = "okay";
+      tp-xy-swap;
     };
 
     #ifdef MOUSE_PS2_DRIVER_UART
