@@ -31,5 +31,3 @@
         , <&gpio0 10 GPIO_ACTIVE_HIGH>
     ;
 };
-
-zuiiopnm,.nm,-.-.,m.,m-.,
