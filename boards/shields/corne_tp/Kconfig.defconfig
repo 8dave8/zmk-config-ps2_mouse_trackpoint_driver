@@ -9,10 +9,13 @@
 # So, you need to define that the central side is the one to which the
 # pointing device is connected to.
 
-if SHIELD_CORNE_TP_LEFT
+if SHIELD_CORNE_TP_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "Corne TP"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
 
 endif
 
@@ -22,7 +25,5 @@ if SHIELD_CORNE_TP_LEFT || SHIELD_CORNE_TP_RIGHT
 config ZMK_SPLIT
     default y
 
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
 
 endif

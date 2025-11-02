@@ -23,7 +23,7 @@
         , <&gpio0 20 GPIO_ACTIVE_HIGH>
     ;
 };
-
+/*
 
 /*
  * PS/2 Mouse / Trackpoint - User Configuration
@@ -545,3 +545,4 @@
 		// zmk-config/config/includes/mouse_tp.dtsi
     };
 };
+*/
